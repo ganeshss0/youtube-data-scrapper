@@ -13,7 +13,7 @@ logging.basicConfig(filename = 'app.log', filemode='a', level = logging.DEBUG, f
 class youtube:
     SERVICE = "youtube"
     VERSION = "v3"
-    API_KEY = "AIzaSyCY6KIKX8HV0-RyfjMwhMihpwSMZ4Im4Jk"
+    API_KEY = "YOUR API KEY"
 
 
 
