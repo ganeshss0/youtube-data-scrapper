@@ -79,7 +79,7 @@ def get_results():
     with open('Result.json', 'w') as file:
         json.dump(results, file)
         logging.info('Result.json Created')
-    return render_template('result_video.html', results = results)
+    return render_template(template, results = results)
 
 @app.route('/mongo', methods = ['GET','POST'])
 @cross_origin()
